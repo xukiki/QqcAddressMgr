@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.requires_arc  = true
 
   s.name         = "QqcSelectAddress"
-  s.version      = "1.0.2"
+  s.version      = "1.0.4"
   s.summary      = "QqcSelectAddress"
   s.homepage     = "https://github.com/xukiki/QqcSelectAddress"
   s.source       = { :git => "https://github.com/xukiki/QqcSelectAddress.git", :tag => "#{s.version}" }
@@ -18,5 +18,7 @@ Pod::Spec.new do |s|
   s.dependency 'NSBundle-Qqc'
   s.dependency 'UIButton-Qqc'
   s.dependency 'UIView-Qqc'
+  s.dependency 'QqcLog-Qqc'
+  s.dependency 'QqcModelPanel.h'
   
 end
